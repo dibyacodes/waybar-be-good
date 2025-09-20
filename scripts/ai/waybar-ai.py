@@ -7,7 +7,7 @@ import requests
 import textwrap  # Added for text wrapping
 
 # Ollama local API endpoint
-OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_URL = "http://localhost:11434/api/generate" # enter your port where ollama is running
 MODEL = "deepseek-coder"  # Change to any model you have installed (e.g., "llama3", "deepseek-chat")
 
 # Simple session file for context
