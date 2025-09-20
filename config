@@ -9,6 +9,7 @@
 		"modules-left": [
 
 		"custom/lock",
+		"custom/ai",
 
 		"hyprland/workspaces",
 		"hyprland/window",
@@ -142,5 +143,12 @@
 			"format":"󰣇  Lock",
 			"tooltip" : false,
 			"on-click" : "hyprlock"
+		},
+
+		"custom/ai":{
+		"format" : "AI",
+		"tooltip":"Chat with AI",
+		"on-click" : "~/.config/waybar/scripts/ai/waybar-ai.py",
+		"escape": true
 		}
 }
