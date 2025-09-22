@@ -21,15 +21,14 @@ Step 2 : **(witout AI)**
 
 Clone this repo to `~/.config/waybar`
 
-`git clone https://github.com/dibyacodes/waybar-be-good.git ~/.config/waybar`
+`git clone -b main https://github.com/dibyacodes/waybar-be-good.git ~/.config/waybar`
 
 **(with AI)**
 
 Clone this repo to `~/.config/waybar`
 
-`git clone https://github.com/dibyacodes/waybar-be-good.git ~/.config/waybar`
+`git clone -b waybar/ai https://github.com/dibyacodes/waybar-be-good.git ~/.config/waybar`
 
-`git checkout origin/waybar/ai -- ~/.config/waybar/config`
 
 Step 3 : Tweak the elements, in the `config` file if you want to, the designs are in the `style.css` file (obviously)
 
